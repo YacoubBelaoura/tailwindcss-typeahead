@@ -16,7 +16,7 @@
                         :class="{ 'is-loading': loading }">
                         <!-- <input class="input is-fullwidth" -->
                         <!-- TODO: add Diffrent colored shadow ? -->
-                        <input class=" px-10  w-full block bg-white h-10
+                        <input class=" px-10  w-full block bg-white h-9
                         border border-gray-860 shadow-inner focus:shadow-outline hover:border-gray-500 hover:shadow text-base"
                             :class="[{ 'is-rounded rounded-full': isRounded }, { 'is-danger border-red-500': hasError }]"
                             type="text"
@@ -28,13 +28,13 @@
                         <!-- <span class="icon is-small is-left"> -->
                         <span class="items-center inline-flex justify-center
                         absolute top-0 ltr:left-0 rtl:right-0
-                        text-gray-500 w-10 h-10">
+                        text-gray-500 w-10 h-9">
                             <fa icon="search"/>
                         </span>
                         <!-- <span class="icon is-small is-right clear-button" -->
                         <span class="items-center inline-flex justify-center
                         absolute top-0 rtl:left-0 ltr:right-0
-                        focus:text-gray-480 text-gray-500 w-10 h-10"
+                        focus:text-gray-480 text-gray-500 w-10 h-9"
                             v-on="clearBindings"
                             v-if="query && !loading">
                             <a class="delete is-small"/>
